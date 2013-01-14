@@ -19,7 +19,7 @@ class String {
     public $pluralizerInstance;
 
     /**
-     * Cache application encoding locally to save expensive calls to Config::get().
+     * Cache application encoding locally to save expensive calls to $this->app->get().
      *
      * @var string
      */
@@ -31,13 +31,13 @@ class String {
     }
 
     /**
-     * Get the appliction.encoding without needing to request it from Config::get() each time.
+     * Get the appliction.encoding without needing to request it from $this->app->get() each time.
      *
      * @return string
      */
     protected function encoding()
     {
-        return $this->encoding ?: $this->encoding = $this->app->get('string::encoding');
+        return $this->encoding ?: $this->encoding = $this->app['config']->get('string::encoding');
     }
 
     /**
@@ -285,7 +285,7 @@ class String {
      */
     public function ascii($value)
     {
-        $foreign = Config::get('string::ascii');
+        $foreign = $this->app->get('string::ascii');
 
         $value = preg_replace(array_keys($foreign), array_values($foreign), $value);
 

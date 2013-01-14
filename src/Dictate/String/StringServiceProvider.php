@@ -12,6 +12,16 @@ class StringServiceProvider extends ServiceProvider {
 	protected $defer = false;
 
 	/**
+	 * Bootstrap the application events.
+	 *
+	 * @return void
+	 */
+	public function boot()
+	{
+		$this->package('dictate/string');
+	}
+
+	/**
 	 * Register the service provider.
 	 *
 	 * @return void
@@ -22,6 +32,16 @@ class StringServiceProvider extends ServiceProvider {
         {
             return new String($app);
         });
+	}
+
+	/**
+	 * Get the services provided by the provider.
+	 *
+	 * @return array
+	 */
+	public function provides()
+	{
+		return array();
 	}
 
 }
