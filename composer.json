@@ -1,0 +1,22 @@
+{
+    "name": "dictate/string",
+    "description": "A port og laravel 3's String class",
+    "authors": [
+        {
+            "name": "Ahmad Shah Hafizan Hamidin",
+            "email": "ahmadshahhafizan@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "illuminate/support": "4.0.x",
+        "illuminate/config": "4.0.x",
+        "illuminate/filesystem": "4.0.x"
+    },
+    "autoload": {
+        "psr-0": {
+            "Dictate\\String": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}

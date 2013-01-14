@@ -1,0 +1,135 @@
+{
+    "hash": "8e534b95ef2f532ba6c83c0fd431481a",
+    "packages": [
+        {
+            "name": "illuminate/config",
+            "version": "dev-master",
+            "target-dir": "Illuminate/Config",
+            "source": {
+                "type": "git",
+                "url": "http://github.com/illuminate/config",
+                "reference": "3a496b4b7da4043414780043511f58e632232b2f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://github.com/illuminate/config/archive/3a496b4b7da4043414780043511f58e632232b2f.zip",
+                "reference": "3a496b4b7da4043414780043511f58e632232b2f",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0",
+                "illuminate/filesystem": "4.0.x",
+                "illuminate/support": "4.0.x"
+            },
+            "time": "2013-01-11 15:52:49",
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "4.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Illuminate\\Config": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Taylor Otwell",
+                    "email": "taylorotwell@gmail.com"
+                }
+            ]
+        },
+        {
+            "name": "illuminate/filesystem",
+            "version": "dev-master",
+            "target-dir": "Illuminate/Filesystem",
+            "source": {
+                "type": "git",
+                "url": "http://github.com/illuminate/filesystem",
+                "reference": "5a400bb320433153f1cb0885ecc34b0ec4f7baa0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://github.com/illuminate/filesystem/archive/5a400bb320433153f1cb0885ecc34b0ec4f7baa0.zip",
+                "reference": "5a400bb320433153f1cb0885ecc34b0ec4f7baa0",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0",
+                "illuminate/support": "4.0.x"
+            },
+            "time": "2013-01-11 15:52:49",
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "4.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Illuminate\\Filesystem": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Taylor Otwell",
+                    "email": "taylorotwell@gmail.com"
+                }
+            ],
+            "description": "A filesystem abstraction library."
+        },
+        {
+            "name": "illuminate/support",
+            "version": "dev-master",
+            "target-dir": "Illuminate/Support",
+            "source": {
+                "type": "git",
+                "url": "http://github.com/illuminate/support",
+                "reference": "5caf15fab229a52f3d864bbfe8c5150e5764a56b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://github.com/illuminate/support/archive/5caf15fab229a52f3d864bbfe8c5150e5764a56b.zip",
+                "reference": "5caf15fab229a52f3d864bbfe8c5150e5764a56b",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "time": "2013-01-11 17:19:12",
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "4.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Illuminate\\Support": ""
+                },
+                "files": [
+                    "Illuminate/Support/helpers.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Taylor Otwell",
+                    "email": "taylorotwell@gmail.com"
+                }
+            ],
+            "description": "Various utilities and support functions."
+        }
+    ],
+    "packages-dev": null,
+    "aliases": [
+
+    ],
+    "minimum-stability": "dev",
+    "stability-flags": [
+
+    ]
+}
