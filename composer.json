@@ -1,6 +1,7 @@
 {
     "name": "dictate/string",
     "description": "A port og laravel 3's String class",
+    "license": "MIT",
     "keywords": ["string", "dictate", "laravel"],
     "authors": [
         {
