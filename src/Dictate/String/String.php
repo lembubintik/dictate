@@ -285,7 +285,7 @@ class String {
      */
     public function ascii($value)
     {
-        $foreign = $this->app->get('string::ascii');
+        $foreign = $this->app['config']->get('string::ascii');
 
         $value = preg_replace(array_keys($foreign), array_values($foreign), $value);
 
