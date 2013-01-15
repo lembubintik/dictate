@@ -1,7 +1,7 @@
 {
     "name": "dictate/string",
     "description": "A port og laravel 3's String class",
-    "license": "MIT",
+    "keywords": ["string", "dictate", "laravel"],
     "authors": [
         {
             "name": "Ahmad Shah Hafizan Hamidin",
@@ -12,7 +12,11 @@
         "php": ">=5.3.0",
         "illuminate/support": "4.0.x",
         "illuminate/config": "4.0.x",
-        "illuminate/filesystem": "4.0.x"
+        "illuminate/filesystem": "4.0.x",
+        "illuminate/container": "4.0.x"
+    },
+    "require-dev": {
+        "mockery/mockery": "0.7.*"
     },
     "autoload": {
         "psr-0": {
